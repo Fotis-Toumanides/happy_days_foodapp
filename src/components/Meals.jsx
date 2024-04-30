@@ -1,4 +1,4 @@
-import MealItem from "./mealItem";
+import MealItem from "./mealItem.jsx";
 import useHttp from "../hooks/useHttp.js";
 import Error from "./Error.jsx";
 
