@@ -5,7 +5,7 @@ import Error from "./Error.jsx";
 const requestConfig={};
 export default function Meals() {
     
-    const {data: loadedMeals, error, isLoading} = useHttp('http://localhost:3000/meals', requestConfig, []);
+    const {data: loadedMeals, error, isLoading} = useHttp('https://foodapp-api-2.onrender.com/meals', requestConfig, []);
     
     if(isLoading){
         return(<p className="center">Connecting to the kitchen...</p>)
